@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
+
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #000;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    top: 0;
+    font-size: 150%;
+}
+
+body {
+    background: linear-gradient(90deg, #290001, #87431D, #290001);
+    color: #dbcbbd;
+    font-family: 'Lora', serif;
+    margin: 0;
+}
+
+h1 h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: underline;
+}
+
+img {
+    border: 1px solid #dbcbbd;
+    max-width: 100%;
+}
+
+ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    list-style-type: none;
+}
+
+li {
+    display: flex;
+    margin: 2%;
+}
+
+i {
+    color: #dbcbbd;
+}
+
+footer {
+    background-color: #000;
+}
+
+p {
+    font-size: 120%;
+}
+
+.btn {
+    background-color: #dbcbbd;
+    border-radius: 10%;
+    box-shadow: 1% 1% 1% #000;
+    color: #000;
+    display: inline-block;
+    padding: 1% 1%;
+    position: relative;
+    transition: all 0.1s ease;
+}
+
+.btn:active {
+    box-shadow: 0 0 0 #000;
+    transform: translate(2%, 2%);
+}
+
+.container {
+    justify-content: center;
+    max-width: 70%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 7%;
+}
+
+.nav-link {
+    color: inherit;
+    text-decoration: none;
+    margin: 0 2%;
+}
+
+.header-left {
+    width: 40%;
+}
+
+.header-right{
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+}
+
+.feature {
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 10);
+    width: 30%;
+    text-align: center;
+    background: url('images/rosewood_1.jpg');
+    margin: 1% 2%;
+    border-radius: 2%;
+    padding: 2%;
+}
+
+.feature p {
+    font-size: 100%;
+}
+
+.social-ul {
+    font-size: 30px;
+}
+
+@media (max-width: 480px) {
+    .header-left, .header-right {
+        width: 100%;
+    }
+}
